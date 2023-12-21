@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/baribari"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/pretendardbold"
+        android:layout_marginTop="130dp"
+        android:text="3. 국민의 복지가 경제적 성장보다"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/pretendardbold"
+        android:layout_marginBottom="140dp"
+        android:text="더 중요하다."
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/agree"
+        android:layout_width="360dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        android:backgroundTint="#F6F7FC"
+        android:textColor="#111111"
+        android:fontFamily="@font/pretendardsemibold"
+        android:layout_margin="7dp"
+        android:text="찬성"
+        android:textSize="16dp"
+
+        />
+
+    <Button
+        android:id="@+id/oppo"
+        android:layout_width="360dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        android:layout_margin="7dp"
+        android:text="반대"
+        android:backgroundTint="#F6F7FC"
+        android:textColor="#111111"
+        android:fontFamily="@font/pretendardsemibold"
+        android:textSize="16dp"
+        />
+
+    <Button
+        android:id="@+id/neut"
+        android:layout_width="360dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        android:layout_margin="7dp"
+        android:text="중립"
+        android:backgroundTint="#F6F7FC"
+        android:textColor="#111111"
+        android:fontFamily="@font/pretendardsemibold"
+        android:textSize="16dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="3/8"
+        android:textSize="15dp"
+        android:fontFamily="@font/pretendardsemibold"
+        android:textColor="#BEBEBE"
+
+        />
+
+</LinearLayout>

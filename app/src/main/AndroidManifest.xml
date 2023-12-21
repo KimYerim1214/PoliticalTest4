@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MindTest"
+        tools:targetApi="31">
+        <activity
+            android:name=".BosuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MiddleBosuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MiddleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MiddleJinboActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JinboActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JinboAcitivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoadingThreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoadingTwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoadingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EightTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EightFightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SevenTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SixTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FIveTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FourTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThreeTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TwoTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OneTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

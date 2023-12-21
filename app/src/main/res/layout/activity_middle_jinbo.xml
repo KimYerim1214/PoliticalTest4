@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="20dp"
+        android:text="당신의 정치 성향은..."
+        android:textSize="16dp"
+        android:fontFamily="@font/pretendardmedium"
+        android:textColor="#8E8E8E"
+
+        />
+
+    <LinearLayout
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:fontFamily="@font/pretendardmedium"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="다양성 추구, "
+            android:textSize="30dp"
+            android:textColor="#111111"
+            android:fontFamily="@font/pretendardbold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="중도 진보주의!"
+            android:textSize="30dp"
+            android:textColor="#46A6FF"
+            android:fontFamily="@font/pretendardbold"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/loating"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:src="@drawable/middlejinbo"
+        android:layout_centerInParent="true"/>
+
+
+    <LinearLayout
+        android:id="@+id/bari1"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/button_round"
+        android:layout_gravity="center"
+        android:backgroundTint="#F6F7FC"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"
+            android:text="     중도진보주의자인 당신은?"
+            android:fontFamily="@font/pretendardmedium"
+            android:textSize="16dp"
+            android:textColor="#575E6B"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra ="8dp"
+            android:letterSpacing="-0.009"
+            android:textSize="16dp"
+            android:textColor="#111111"
+            android:text="     • 다양성이 존중되는 세상을 꿈꿔요.
+            \n     • 정부는 다양한 구성원을 위해 힘써야 한다고 생각해\n        요.
+            \n     • 성소수자, 환경주의, 다문화 등 다양한 사람과 문화\n        에 관심이 많아요.
+            \n     • 공정한 경쟁을 위해서는 타고난 기회의 차이를 줄여\n        야 한다고 생각해요.\n"
+            android:fontFamily="@font/pretendardmedium"
+            />
+    </LinearLayout>
+
+</LinearLayout>
